@@ -21,6 +21,18 @@ draw = function() {
   rect(5, 60, 200, 40); 
 };
 
+if (theNumber > 0) {
+  rect(5, 60, 200, 40);
+}
+
+if (theNumber > 0) {
+  rect(5, 110, 200, 40);
+}
+
+if(theNumber == 0); {
+  rect(5, 160, 200, 40);
+}
+
 //draw Function - will run when mouseClicked
 mouseClicked = function(){
   theNumber = round(random(-100,100));
